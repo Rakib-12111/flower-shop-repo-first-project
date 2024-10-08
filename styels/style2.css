@@ -1,16 +1,17 @@
-*{
+* {
       box-sizing: border-box;
       padding: 0;
       margin: 0;
 }
 
-.bannae-secton-container{
+.bannae-secton-container {
       background-color: blanchedalmond;
       max-width: 1536px;
       height: 600px;
-     
+
 }
-.banner-parent-container{
+
+.banner-parent-container {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -18,7 +19,8 @@
       margin: 0 auto;
       height: 600px;
 }
-.banner-text-container{
+
+.banner-text-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -26,17 +28,20 @@
       width: 50%;
       height: 600px;
 }
-.banner-text-container h1{
+
+.banner-text-container h1 {
       font-size: 50px;
-     
+
 
 }
-.banner-text-container p{
+
+.banner-text-container p {
       color: gray;
       margin-left: 120px;
       margin-top: 20px;
 }
-.banner-text-container button{
+
+.banner-text-container button {
       background-color: red;
       padding: 15px 30px;
       border: none;
@@ -44,16 +49,228 @@
       margin-top: 20px;
       margin-right: 270px;
 }
-.banner-image-container{
+
+.banner-image-container {
       width: 50%;
       height: 600px;
-      
+
 }
-.banner-image-container img{
+
+.banner-image-container img {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 80%;
       height: 600px;
+
+}
+
+
+/* featered container stat here */
+.featured-container {
+      text-align: center;
+      margin-top: 100px;
+}
+
+.featured-image-container {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      margin-top: 40px;
+}
+
+.featured-first,
+.featured-secont,
+.featured-third {
+      padding: 0 200px;
+      width: 33%;
+      height: 530px;
+
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      border-radius: 50% 50% 0 0;
+      background-color: blanchedalmond;
+}
+
+.featured-first img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+}
+
+.featured-secont img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 60px;
+
+}
+
+.same-container {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+      background-color: azure;
+      margin-top: 70px;
+      padding: 70px;
+
+}
+
+.same-first,
+.same-second,
+.same-third {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+}
+
+.hot-main-container {
+      margin-top: 70px;
+      padding: 30px;
+      background-color: #FEF6F8;
+}
+
+.hot-container {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+}
+
+.text-left-hot {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      text-align: center;
+      gap: 20px;
+
+}
+
+.text-left-hot h1 {
+      font-size: 40px;
+      font-weight: 800px;
+      font-family: sans-serif;
+}
+
+.text-left-hot p {
+      color: grey;
+      line-height: 30px;
+}
+
+.text-left-hot button {
+      padding: 15px 30px;
+      border: none;
+      background-color: red;
+      border-radius: 4px;
+      color: white;
+      font-weight: bold;
+}
+
+.image-right-hot {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+
+
+}
+
+/* instagram scton here */
+.tnstagram-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      margin-top: 50px;
+      line-height: px;
+
+}
+
+.tnstagram-container h1 {
+      text-transform: capitalize;
+      font-weight: bolder;
+      font-size: 40px;
+}
+
+.tnstagram-container p {
+      color: gray;
+      margin-top: 15px;
+}
+
+.instagram-image-container {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      gap: 10px;
+      margin-top: 30px;
+      /*       
+      justify-content: space-evenly;
+      justify-items: center;
+      align-content: space-evenly;
+      align-items: center; */
+}
+
+.ins-first img {
+      width: 90%;
+}
+
+.ins-second img {
+      width: 90%;
+}
+
+.ins-third img {
+      width: 90%;
+}
+
+.ins-ford img {
+      width: 90%;
+}
+
+.getlatest-secton {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+}
+
+.input-container {
+      text-align: center;
+      margin-top: 30px;
       
+}
+
+.input-container input {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      width: 700px;
+      height: 60px;
+      border: none;
+      border-radius: 8px;
+      padding: 10px;
+}
+
+.input-container button {
+      width: 150px;
+      height: 60px;
+     border: none;
+     border-radius: 8px;
+     background-color: red;
+     color: white;
+     font-size: 16px;
+     font-weight: bold;
+     margin-left: 10px;
+
 }
